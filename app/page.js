@@ -2,6 +2,7 @@
 import { IconContext } from "react-icons";
 import SideBar from "@/components/SideBar";
 import { CiLock } from "react-icons/ci";
+import Plants from "@/components/Plants";
 
 export default function page() {
   return (
@@ -24,7 +25,7 @@ export default function page() {
               https://www.myplant.com//
             </p>
           </div>
-          {/* content */}
+          <Plants></Plants>
         </div>
       </main>
     </>
